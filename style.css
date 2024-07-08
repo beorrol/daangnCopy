@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'GmarketSansMedium', sans-serif;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    background-color: white;
+    padding: 5px 140px;
+}
+
+header img {
+    flex-shrink: 0;
+}
+
+.head-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.head-list li {
+    list-style: none;
+}
+
+.head-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-list a:hover {
+    color: grey !important;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search {
+    width: 200px;
+    height: 35px;
+    padding: 0 10px;
+    background-color: #f2f3f6;
+    border: none;
+    border-radius: 5px;
+}
+
+.right button {
+    height: 45px;
+    background-color: #fff;
+    border: 2px solid #f2f3f6;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.sec1 {
+    padding: 30px;
+    display: flex;
+    background-color: #fffae0;
+    height: 800px;
+}
+.sec2 {
+    padding: 30px;
+    display: flex;
+    background-color: #fff;
+    height: 800px;
+}
+.sec3 {
+    background-color: #fff8f1;
+    height: 800px;
+}
+
+.container1 {
+    margin: 0 auto;
+    display: flex;
+}
+
+.mainsec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainsec2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.mainsec h1 {
+    font-size: 54px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+.mainsec p {
+    color: grey;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    width: 180px;
+    height: 56px;
+    display: flex;
+    background-color: #fe6f0f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn2 {
+    padding: 12px 20px;
+    display: flex;
+    background-color: #e9ecef;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mainsec2 h1 {
+    font-size: 44px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.mainsec2 p {
+    color: grey;
+    font-size: 20px;
+    line-height: 30px;
+}
